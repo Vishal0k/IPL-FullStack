@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+  background-color: #f5f5f5;
+  font-family: 'Arial', sans-serif;
+}
+
+.App-logo {
+  height: 30vmin;
+  pointer-events: auto;
+  border-radius: 50%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-bounce infinite 10s ease-in-out;
+  }
+}
+
+.App-header {
+  background-color: #1a202c;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-size: calc(12px + 2vmin);
+  color: #e2e8f0;
+  padding: 20px;
+}
+
+.App-link {
+  color: #38b2ac;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.App-link:hover {
+  color: #2c7a7b;
+}
+
+@keyframes App-logo-bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
